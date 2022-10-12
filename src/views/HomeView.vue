@@ -1,3 +1,7 @@
 <template>
-  <h3>Página Home</h3>
+  <TituloPadrao nome="Home"/>
 </template>
+
+<script setup>
+import TituloPadrao from '@/components/TituloPadrao.vue'
+</script>

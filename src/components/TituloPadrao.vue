@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <style lang="scss" scoped>
-h2 {
+h3 {
   color: $primary;
 }
 </style>

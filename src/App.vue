@@ -16,3 +16,11 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterView />
   </main>
 </template>
+
+<style>
+    a{
+      color: pink
+      
+    }
+
+</style>
