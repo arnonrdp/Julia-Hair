@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <h1 class="text-center">Salão da Júlia</h1>
+    <h4 class="text-center">Julia Rodrigues</h4>
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/sobre">Sobre</RouterLink>
@@ -19,8 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
     a{
-      color: pink
-      
+      color: black
     }
 
 </style>
