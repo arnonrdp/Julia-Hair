@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
+    <q-img class="photo" src="./assets/imgjulia.jpeg" style="height: 270px; max-width: 210px" alt="Julia Rodrigues" />
     <h4 class="text-center">Julia Rodrigues</h4>
     <nav>
       <RouterLink to="/">Home</RouterLink>
@@ -15,11 +16,23 @@ import { RouterLink, RouterView } from 'vue-router'
   <main>
     <RouterView />
   </main>
+
+  <footer>
+    <p>© 2021 Julia Rodrigues.</p>
+  </footer>
 </template>
 
 <style>
-    a{
-      color: black
-    }
-
+a {
+  color: black;
+}
+footer {
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+    background-color:bisque;
+    bottom: 0;
+    
+}
 </style>
