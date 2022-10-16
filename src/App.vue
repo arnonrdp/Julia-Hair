@@ -23,16 +23,29 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style>
+header {
+}
+.photo {
+  margin: 20px;
+  border-radius: 35px 8px;
+}
+h4 {
+  display: inline;
+}
+
+nav{
+  font-size: 2rem;
+}
+
 a {
   color: black;
 }
 footer {
-    position: fixed;
-    width: 100vw;
-    height: 70px;
-    text-align: center;
-    background-color:bisque;
-    bottom: 0;
-    
+  position: fixed;
+  width: 100vw;
+  height: 70px;
+  text-align: center;
+  background-color: bisque;
+  bottom: 0;
 }
 </style>
