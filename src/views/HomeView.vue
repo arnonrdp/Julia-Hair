@@ -1,7 +1,3 @@
 <template>
-  <TituloPadrao nome="Home"/>
+  <h2>Tenha um tratamento individualizado para sua queda capilar.</h2>
 </template>
-
-<script setup>
-import TituloPadrao from '@/components/TituloPadrao.vue'
-</script>

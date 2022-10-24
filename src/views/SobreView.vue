@@ -1,17 +1,4 @@
 <template>
-  <TituloPadrao nome="Sobre" />
-  <h4>{{ contador }}</h4>
-  <q-btn class="q-ml-xl" rounded @click="somar()">+</q-btn>
+  <h1>Júlia Rodrigues Clinic</h1>
+  <q-img class="photo" src="@/assets/main.jpeg" width="15rem" contain alt="Julia Rodrigues" />
 </template>
-
-<script setup>
-import TituloPadrao from '@/components/TituloPadrao.vue'
-import { ref } from 'vue'
-
-let contador = ref(0)
-
-function somar(){
-  contador.value++
-}
-</script>
- 
