@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <q-img class="photo" src="./assets/imgjulia.jpeg" style="height: 270px; max-width: 210px" alt="Julia Rodrigues" />
+    <q-img class="photo" src="./assets/main.jpeg" style="height: 270px; max-width: 210px" alt="Julia Rodrigues" />
     <h4 class="text-center">Julia Rodrigues</h4>
     <nav>
       <RouterLink to="/">Home</RouterLink>
@@ -23,8 +23,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style>
-header {
-}
 .photo {
   margin: 20px;
   border-radius: 35px 8px;
@@ -33,7 +31,7 @@ h4 {
   display: inline;
 }
 
-nav{
+nav {
   font-size: 2rem;
 }
 
