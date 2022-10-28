@@ -72,8 +72,29 @@
     <p>O paciente manipula em uma farmácia de manipulação e faz o tratamento em casa.</p>
     <p>Se houver indicação de procedimento feito em clínica, o mesmo será indicado e orientado (a sugestão de frequência, intensidade, substâncias usadas e tempo). E então o paciente pode buscar em sua região uma clínica especializada que realize o procedimento em questão.</p>
     <button>Agendar Consulta Online</button>
+    <div>
+      <h5>Tratamento In & Out</h5>
+      <p>Cabelo deve ser tratado de dentro para fora e de fora para dentro. O tratamento consiste em prescrição oral e tópica, somado a procedimentos em consultório.</p>
+    </div>
+    <div>
+      <h5>Tratamento Individual</h5>
+      <p>Cada queda de cabelo é única e não existe um tratamento milagroso e que atenda a todo mundo.</p>
+    </div>
+    <div>
+      <h5>Contato via WhatsApp</h5>
+      <p>O acompanhamento do tratamento é feito em contato direto comigo.</p>
+    </div>
   </section>
 
+  <section> 
+    <h4>Veja o que dizem sobre a consulta e o tratamento capilar</h4>
+    <p>Colocar carrosel aqui.</p>
+  </section>
+
+  <section>
+    <h6>Perguntas Frequentes</h6>
+    <a href="" class="elemento">Qual a diferença da consulta presencial e online?</a>
+  </section>
 
 
 
