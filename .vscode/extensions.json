@@ -1,3 +1,13 @@
 {
-  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
+  "recommendations": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "gruntfuggly.todo-tree",
+    "abdelaziz18003.quasar-snippets",
+    "esbenp.prettier-vscode",
+    "fkkmemi.memi-quasar-snippets",
+    "xabikos.javascriptsnippets",
+    "visualstudioexptteam.vscodeintellicode",
+    "mhutchie.git-graph"
+  ]
 }
