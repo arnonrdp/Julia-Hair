@@ -31,8 +31,7 @@
 
   <section class="q-ma-sm text-center">
     <h2 class="text-h5 text-primary">Resultados dos tratamentos capilares realizados, tanto presencialmente quanto de forma online</h2>
-    <p>INSERIR FOTOS AQUI...</p>
-    <!-- TODO: Verificar se Instagram possui fotos que podem ser inseridas aqui -->
+    <q-img class="radius-24" src="src/assets/tratamento.jpg" spinner-color="primary" spinner-size="82px" width="400px" />
   </section>
 
   <q-separator inset spaced />
