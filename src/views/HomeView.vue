@@ -2,8 +2,9 @@
   <section class="q-ma-sm text-center">
     <h2 class="text-h5 text-primary">Tenha um tratamento individualizado para sua queda capilar.</h2>
     <div class="row justify-center">
-      <q-img class="col-sm-5 col-xs-12 q-ma-sm radius-24" src="src/assets/cabelo1.jpg" spinner-color="primary" spinner-size="30rem" />
-      <q-img class="col-sm-5 col-xs-12 q-ma-sm radius-24" src="src/assets/cabelo2.jpg" spinner-color="primary" spinner-size="30rem" />
+      <q-video class="full-width q-my-lg" src="https://www.youtube.com/embed/0aRMSj_qZq4" :ratio="16 / 9" />
+      <!-- <q-img class="col-sm-5 col-xs-12 q-ma-sm radius-24" src="src/assets/cabelo1.jpg" spinner-color="primary" spinner-size="30rem" />
+      <q-img class="col-sm-5 col-xs-12 q-ma-sm radius-24" src="src/assets/cabelo2.jpg" spinner-color="primary" spinner-size="30rem" /> -->
     </div>
     <q-btn color="primary" href="https://wa.me/5521973666897" rounded target="_blank">Quero agendar</q-btn>
   </section>
@@ -13,15 +14,11 @@
   <section class="flex column items-center q-gutter-md">
     <h2 class="text-h5 text-primary">Se você...</h2>
     <div class="justify-center row text-center">
-      <SmallCard class="col-sm-2 col-xs-12" imgName="icon-queda" label="Está passando por uma queda de cabelo acentuada" />
-      <SmallCard
-        class="col-sm-2 col-xs-12"
-        imgName="icon-cabelo-fino"
-        label="Sente que seu cabelo está ficando fino e o couro cabeludo aparente"
-      />
-      <SmallCard class="col-sm-2 col-xs-12" imgName="icon-cabelo-sumindo" label="Nota que seu cabelo está sumindo aos poucos" />
-      <SmallCard class="col-sm-2 col-xs-12" imgName="icon-tratamento" label="Já fez diversos tratamentos e não teve resultado" />
-      <SmallCard class="col-sm-2 col-xs-12" imgName="icon-cabelo-fragil" label="Sente que seu cabelo está frágil e quebradiço" />
+      <SmallCard imgName="icon-queda" label="Está passando por uma queda de cabelo acentuada" />
+      <SmallCard imgName="icon-cabelo-fino" label="Sente que seu cabelo está ficando fino e o couro cabeludo aparente" />
+      <SmallCard imgName="icon-cabelo-sumindo" label="Nota que seu cabelo está sumindo aos poucos" />
+      <SmallCard imgName="icon-tratamento" label="Já fez diversos tratamentos e não teve resultado" />
+      <SmallCard imgName="icon-cabelo-fragil" label="Sente que seu cabelo está frágil e quebradiço" />
     </div>
     <h2 class="text-h5 text-primary">Agende uma consulta capilar agora mesmo</h2>
     <q-btn color="primary" href="https://wa.me/5521973666897" rounded target="_blank">Agendar consulta</q-btn>
@@ -29,9 +26,11 @@
 
   <q-separator inset spaced />
 
-  <section class="q-ma-sm text-center">
-    <h2 class="text-h5 text-primary">Resultados dos tratamentos capilares realizados, tanto presencialmente quanto de forma online</h2>
-    <q-img class="radius-24" src="src/assets/tratamento.jpg" spinner-color="primary" spinner-size="82px" width="400px" />
+  <section class="row items-center justify-center">
+    <h2 class="col-sm-6 col-xs-12 text-h5 text-center text-primary">
+      Resultados dos tratamentos capilares realizados, tanto presencialmente quanto de forma online
+    </h2>
+    <q-img class="col-sm-6 col-xs-12 radius-24" src="src/assets/tratamento.jpg" spinner-color="primary" spinner-size="82px" width="400px" />
   </section>
 
   <q-separator inset spaced />
@@ -69,51 +68,53 @@
 
   <q-separator inset spaced />
 
-  <section class="q-ma-sm text-center">
+  <section class="q-ma-sm q-mb-xl text-center">
     <h2 class="text-h5 text-primary">Como funciona a consulta presencial?</h2>
     <p class="text-body1 text-secondary">
       A consulta presencial dura cerca de uma hora e acontece perante horário agendado, no seguinte endereço:
     </p>
     <address>Av. Roberto Silveira, 215 - Icaraí Av. Roberto Silveira, 215 - Icaraí, Niterói - RJ, 24230-151</address>
     <p class="text-body1 text-secondary">Ela se divide em 3 partes principais:</p>
-    <div>
-      <!-- TODO: Criar componente "BigCard.vue" para reutilizar cada um dos 3 cards abaixo -->
-      <h6>
-        1
-        <br />
-        Coleta de Informações
-      </h6>
-      <p>
-        Após agendar seu horário, o paciente recebe um documento, via WhatsApp, com orientações de como se preparar para a consulta: fotos
-        específicas e um exame físico simples que ele faz sozinho.
-      </p>
-      <p>As fotos devem ser enviadas previamente, junto com exames laboratoriais recentes e outros documentos importantes, se houver.</p>
-      <p>O pagamento (Pix ou Cartão de Crédito) é feito nessa etapa.</p>
-    </div>
-    <div>
-      <h6>
-        2
-        <br />
-        A Consulta
-      </h6>
-      <p>
-        Durante a chamada de vídeo, várias perguntas são feitas ao paciente a fim de conhecer seu histórico referente a queixa, todo o caso
-        clínico e qualquer outra informação relevante para identificação do tipo de queda.
-      </p>
-      <p>Ao final da consulta, será explicado todo o caso ao paciente e o tratamento será proposto e orientado.</p>
-    </div>
-    <div>
-      <h6>
-        3
-        <br />
-        Pós Consulta
-      </h6>
-      <p>
-        O acompanhamento do tratamento acontece via WhatsApp, diretamente comigo, e o paciente tem livre acesso para tirar suas dúvidas
-        durante o tratamento.
-      </p>
-      <p>Quando necessário, é agendada a consulta de seguimento para avaliar a evolução e ajustar o tratamento.</p>
-    </div>
+    <section class="row justify-center q-gutter-xl q-ma-lg">
+      <div class="col-md-3 col-sm-12 q-pa-lg q-mx-auto radius-24 bg-pink-2 shadow-2">
+        <!-- TODO: Criar componente "BigCard.vue" para reutilizar cada um dos 3 cards abaixo -->
+        <h6>
+          1
+          <br />
+          Coleta de Informações
+        </h6>
+        <p>
+          Após agendar seu horário, o paciente recebe um documento, via WhatsApp, com orientações de como se preparar para a consulta: fotos
+          específicas e um exame físico simples que ele faz sozinho.
+        </p>
+        <p>As fotos devem ser enviadas previamente, junto com exames laboratoriais recentes e outros documentos importantes, se houver.</p>
+        <p>O pagamento (Pix ou Cartão de Crédito) é feito nessa etapa.</p>
+      </div>
+      <div class="col-md-3 col-sm-12 q-pa-lg q-mx-auto radius-24 shadow-20">
+        <h6>
+          2
+          <br />
+          A Consulta
+        </h6>
+        <p>
+          Durante a chamada de vídeo, várias perguntas são feitas ao paciente a fim de conhecer seu histórico referente a queixa, todo o
+          caso clínico e qualquer outra informação relevante para identificação do tipo de queda.
+        </p>
+        <p>Ao final da consulta, será explicado todo o caso ao paciente e o tratamento será proposto e orientado.</p>
+      </div>
+      <div class="col-md-3 col-sm-12 q-pa-lg q-mx-auto radius-24 shadow-20">
+        <h6>
+          3
+          <br />
+          Pós Consulta
+        </h6>
+        <p>
+          O acompanhamento do tratamento acontece via WhatsApp, diretamente comigo, e o paciente tem livre acesso para tirar suas dúvidas
+          durante o tratamento.
+        </p>
+        <p>Quando necessário, é agendada a consulta de seguimento para avaliar a evolução e ajustar o tratamento.</p>
+      </div>
+    </section>
   </section>
 
   <q-separator inset spaced />

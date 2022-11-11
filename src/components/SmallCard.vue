@@ -1,5 +1,5 @@
 <template>
-  <div class="card q-ma-sm q-pa-sm">
+  <div class="card col-sm-2 col-xs-12 q-ma-sm q-pa-sm">
     <q-img :src="`src/assets/${imgName}.webp`" width="50%" />
     <p>{{ label }}</p>
   </div>
